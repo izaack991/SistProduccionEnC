@@ -1,2 +1,2 @@
-SistProduccionWPF_EnC/bin/
-SistProduccionWPF_EnC/obj/
+SistProduccionEnC/bin/Debug
+SistProduccionEnC/obj/
