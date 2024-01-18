@@ -1,0 +1,2 @@
+SistProduccionWPF_EnC/bin/
+SistProduccionWPF_EnC/obj/
