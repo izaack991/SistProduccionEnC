@@ -68,6 +68,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Catalogos\frmCAT_ClasificacionExp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Catalogos\frmCAT_Clientes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -75,6 +79,18 @@
     <Page Include="Catalogos\frmCAT_Especies.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Catalogos\frmCAT_Familias.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Catalogos\frmCAT_INSUMOS.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Catalogos\frmCAT_IVA.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Catalogos\frmCAT_MarcasVehiculos.xaml">
       <SubType>Designer</SubType>
@@ -88,11 +104,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Catalogos\frm_CAT_IEPS.xaml">
+    <Page Include="Catalogos\frmCAT_TipoGanado.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Catalogos\frmCAT_TiposVehiculo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Catalogos\frmCAT_IEPS.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Catalogos\frm_CAT_Subfamilias.xaml">
+    <Page Include="Catalogos\frmCAT_Subfamilias.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -104,11 +128,23 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Catalogos\frmCAT_ClasificacionExp.xaml.cs">
+      <DependentUpon>frmCAT_ClasificacionExp.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Catalogos\frmCAT_Clientes.xaml.cs">
       <DependentUpon>frmCAT_Clientes.xaml</DependentUpon>
     </Compile>
     <Compile Include="Catalogos\frmCAT_Especies.xaml.cs">
       <DependentUpon>frmCAT_Especies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Familias.xaml.cs">
+      <DependentUpon>frmCAT_Familias.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_INSUMOS.xaml.cs">
+      <DependentUpon>frmCAT_INSUMOS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_IVA.xaml.cs">
+      <DependentUpon>frmCAT_IVA.xaml</DependentUpon>
     </Compile>
     <Compile Include="Catalogos\frmCAT_MarcasVehiculos.xaml.cs">
       <DependentUpon>frmCAT_MarcasVehiculos.xaml</DependentUpon>
@@ -119,11 +155,17 @@
     <Compile Include="Catalogos\frmCAT_ProductosCte.xaml.cs">
       <DependentUpon>frmCAT_ProductosCte.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Catalogos\frm_CAT_IEPS.xaml.cs">
-      <DependentUpon>frm_CAT_IEPS.xaml</DependentUpon>
+    <Compile Include="Catalogos\frmCAT_TipoGanado.xaml.cs">
+      <DependentUpon>frmCAT_TipoGanado.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Catalogos\frm_CAT_Subfamilias.xaml.cs">
-      <DependentUpon>frm_CAT_Subfamilias.xaml</DependentUpon>
+    <Compile Include="Catalogos\frmCAT_TiposVehiculo.xaml.cs">
+      <DependentUpon>frmCAT_TiposVehiculo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_IEPS.xaml.cs">
+      <DependentUpon>frmCAT_IEPS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Subfamilias.xaml.cs">
+      <DependentUpon>frmCAT_Subfamilias.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

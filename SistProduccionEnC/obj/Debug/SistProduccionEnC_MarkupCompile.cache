@@ -4,82 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-C:\Users\Danny\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
-=======
-C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
->>>>>>> origin/feature_luis_eduardo
-=======
-C:\Users\isaac\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
->>>>>>> origin/feature_isaac_machado
-=======
-C:\Users\juanl\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
->>>>>>> origin/feature_juan_velarde
-=======
-C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
->>>>>>> origin/feature_kevin_valle
-=======
-C:\Users\juand\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
->>>>>>> origin/feature_juan_salgado
+C:\Users\isaac\source\SistProduccionEnC\SistProduccionEnC\obj\Debug\
 SistProduccionEnC
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-C:\Users\Danny\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-61241846160
+C:\Users\isaac\source\SistProduccionEnC\SistProduccionEnC\App.xaml
+8-952727433
 
-111612152200
+13-825829288
 261630758244
-Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;MainWindow.xaml;
-=======
-C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-4-254761472
-
-91850244308
-13-1505183044
-Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_ProductosCte.xaml;MainWindow.xaml;
->>>>>>> origin/feature_luis_eduardo
-=======
-C:\Users\isaac\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-4-254761472
-
-91850244308
-13-1505183044
-Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_ProductosCte.xaml;MainWindow.xaml;
->>>>>>> origin/feature_isaac_machado
-=======
-C:\Users\juanl\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-4-254761472
-
-91850244308
-13-1505183044
-Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_ProductosCte.xaml;MainWindow.xaml;
->>>>>>> origin/feature_juan_velarde
-=======
-C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-61845632231
-
-10254622187
-13-1505183044
-Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frm_CAT_IEPS.xaml;Catalogos\frm_CAT_Subfamilias.xaml;MainWindow.xaml;
->>>>>>> origin/feature_kevin_valle
-=======
-C:\Users\juand\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-4-254761472
-
-8-1602363621
-13-1505183044
-Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_ProductosCte.xaml;MainWindow.xaml;
->>>>>>> origin/feature_juan_salgado
+Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frm_CAT_IEPS.xaml;Catalogos\frm_CAT_Subfamilias.xaml;MainWindow.xaml;
 
 True
 
