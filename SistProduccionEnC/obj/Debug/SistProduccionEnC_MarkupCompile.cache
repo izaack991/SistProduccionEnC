@@ -8,6 +8,7 @@ C#
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Danny\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
 =======
 C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
@@ -21,10 +22,14 @@ C:\Users\juanl\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
 =======
 C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
 >>>>>>> origin/feature_kevin_valle
+=======
+C:\Users\juand\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+>>>>>>> origin/feature_juan_salgado
 SistProduccionEnC
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,6 +72,14 @@ C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
 13-1505183044
 Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frm_CAT_IEPS.xaml;Catalogos\frm_CAT_Subfamilias.xaml;MainWindow.xaml;
 >>>>>>> origin/feature_kevin_valle
+=======
+C:\Users\juand\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+4-254761472
+
+8-1602363621
+13-1505183044
+Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_ProductosCte.xaml;MainWindow.xaml;
+>>>>>>> origin/feature_juan_salgado
 
 True
 
