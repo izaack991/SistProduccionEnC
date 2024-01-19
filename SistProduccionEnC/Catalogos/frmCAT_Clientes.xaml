@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SistProduccionEnC.Catalogos"
         mc:Ignorable="d"
-        Title="frmCAT_Clientes" Height="450" Width="800">
-    <Grid>
-        
+        Title="frmCAT_Clientes" Width="1600" Height="900" Background="White">
+    <Grid Width="1600" Height="900" Background="LightGray">
+        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="286" Height="137" Background="Red" FontSize="36" Foreground="White"/>
+        <Button Content="Editar" HorizontalAlignment="Left" Margin="441,68,0,0" VerticalAlignment="Top" Width="286" Height="137" Background="DarkOrange" FontSize="36" Foreground="White"/>
+        <Button Content="Nuevo" HorizontalAlignment="Left" Margin="880,68,0,0" VerticalAlignment="Top" Width="286" Height="137" Background="DeepSkyBlue" FontSize="36" Foreground="White"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="1299,68,0,0" VerticalAlignment="Top" Width="286" Height="137" Background="LimeGreen" FontSize="36" Foreground="White"/>
     </Grid>
 </Window>
