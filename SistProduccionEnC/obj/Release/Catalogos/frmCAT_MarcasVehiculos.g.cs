@@ -9,7 +9,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 using DevExpress.Xpf.DXBinding;
+=======
+>>>>>>> origin/feature_luis_eduardo
 using SistProduccionEnC.Catalogos;
 using System;
 using System.Diagnostics;
