@@ -4,26 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-C:\Users\Danny\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
-=======
-C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
->>>>>>> origin/luis_velazquez
+C:\Users\juand\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
 SistProduccionEnC
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
-C:\Users\Danny\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-21762137281
-=======
-C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-4-254761472
->>>>>>> origin/luis_velazquez
+C:\Users\juand\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+7-34419729
 
-91850244308
+12-1245126122
 13-1505183044
-Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_ProductosCte.xaml;MainWindow.xaml;
+Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;
 
-True
+False
 
