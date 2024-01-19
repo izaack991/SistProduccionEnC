@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SistProduccionEnC.Catalogos"
         mc:Ignorable="d"
-        Title="frmCAT_ProductosCte" Height="450" Width="800">
+        Title="frmCAT_ProductosCte" Height="900" Width="1600">
     <Grid>
-        
+        <Label Content="Cliente" HorizontalAlignment="Left" Margin="90,100,0,0" VerticalAlignment="Top" Height="58" Width="132" FontSize="36" RenderTransformOrigin="0.553,0.986"/>
+        <Label Content="Código" HorizontalAlignment="Left" Margin="90,200,0,0" VerticalAlignment="Top" Height="58" Width="132" FontSize="36"/>
+        <Label Content="Producto/Cliente" HorizontalAlignment="Left" Margin="90,300,0,0" VerticalAlignment="Top" Height="58" Width="281" FontSize="36"/>
+        <Label Content="Producto Padre" HorizontalAlignment="Left" Margin="90,400,0,0" VerticalAlignment="Top" Height="58" Width="281" FontSize="36"/>
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="240,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" FontSize="36" RenderTransformOrigin="0.096,0.496"/>
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="240,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" FontSize="36" RenderTransformOrigin="0.096,0.496"/>
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="400,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="567" FontSize="36" RenderTransformOrigin="0.096,0.496"/>
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="400,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="567" FontSize="36" RenderTransformOrigin="0.096,0.496"/>
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="400,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" FontSize="36" RenderTransformOrigin="0.096,0.496"/>
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="400,404,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" FontSize="36" RenderTransformOrigin="0.096,0.496"/>
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="566,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" FontSize="36" RenderTransformOrigin="0.096,0.496"/>
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="566,404,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" FontSize="36" RenderTransformOrigin="0.096,0.496" Text="I"/>
     </Grid>
 </Window>
