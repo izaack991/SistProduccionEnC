@@ -88,6 +88,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Catalogos\frm_CAT_IEPS.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Catalogos\frm_CAT_Subfamilias.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -110,6 +118,12 @@
     </Compile>
     <Compile Include="Catalogos\frmCAT_ProductosCte.xaml.cs">
       <DependentUpon>frmCAT_ProductosCte.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frm_CAT_IEPS.xaml.cs">
+      <DependentUpon>frm_CAT_IEPS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frm_CAT_Subfamilias.xaml.cs">
+      <DependentUpon>frm_CAT_Subfamilias.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

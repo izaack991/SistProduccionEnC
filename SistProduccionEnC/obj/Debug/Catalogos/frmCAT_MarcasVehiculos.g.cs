@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using DevExpress.Xpf.DXBinding;
 =======
 >>>>>>> origin/feature_luis_eduardo
@@ -19,6 +20,8 @@ using DevExpress.Xpf.DXBinding;
 >>>>>>> origin/feature_isaac_machado
 =======
 >>>>>>> origin/feature_juan_velarde
+=======
+>>>>>>> origin/feature_kevin_valle
 using SistProduccionEnC.Catalogos;
 using System;
 using System.Diagnostics;

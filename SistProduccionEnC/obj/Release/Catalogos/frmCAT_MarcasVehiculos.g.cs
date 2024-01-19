@@ -10,9 +10,12 @@
 //------------------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 using DevExpress.Xpf.DXBinding;
 =======
 >>>>>>> origin/feature_luis_eduardo
+=======
+>>>>>>> origin/feature_kevin_valle
 using SistProduccionEnC.Catalogos;
 using System;
 using System.Diagnostics;
