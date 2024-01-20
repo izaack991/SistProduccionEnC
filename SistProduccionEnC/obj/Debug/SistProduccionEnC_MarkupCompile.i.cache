@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\isaac\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+=======
+C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+>>>>>>> 0362857a3b37f3b6f189fc9d2f2b0cace3b19a9e
 SistProduccionEnC
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\isaac\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+=======
+C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+>>>>>>> 0362857a3b37f3b6f189fc9d2f2b0cace3b19a9e
 14-2088019401
 
 19-1416538307
