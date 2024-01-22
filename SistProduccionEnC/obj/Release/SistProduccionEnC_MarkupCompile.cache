@@ -4,16 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\juanl\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Release\
+=======
+C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Release\
+>>>>>>> da61de9425d2b09f590bb2f3d13659bdeecd7f12
 SistProduccionEnC
 none
 false
 TRACE
+<<<<<<< HEAD
 C:\Users\juanl\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
 14-2088019401
 
 18-574178940
 301580236655
+=======
+C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+14-2088019401
+
+18-574178940
+261630758244
+>>>>>>> da61de9425d2b09f590bb2f3d13659bdeecd7f12
 Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_Subfamilias.xaml;MainWindow.xaml;
 
 True
