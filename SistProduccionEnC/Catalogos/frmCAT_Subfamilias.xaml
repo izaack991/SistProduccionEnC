@@ -4,22 +4,22 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SistProduccionEnC.Catalogos"
-        xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" x:Name="CAT_SubFamilias" x:Class="SistProduccionEnC.Catalogos.frm_CAT_Subfamilias"
+        xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" x:Class="SistProduccionEnC.Catalogos.frmCAT_Subfamilias"
         mc:Ignorable="d"
-        Title="Catálogo de Sub Familias" Height="900" Width="1600" FontSize="72">
-    <Grid Width="1600" Margin="0,0,-6.4,2.4">
-        <TextBox HorizontalAlignment="Left" Height="89" Margin="486,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233"/>
-        <TextBox HorizontalAlignment="Left" Height="86" Margin="486,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233"/>
-        <Label Content="Familia" HorizontalAlignment="Left" Margin="225,104,0,0" VerticalAlignment="Top"/>
-        <Label Content="Sub Familia" HorizontalAlignment="Left" Margin="83,224,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="89" Margin="753,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="650"/>
-        <TextBox HorizontalAlignment="Left" Height="86" Margin="753,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="650"/>
+        Title="Catálogo de Sub Familias" Height="899" Width="1600" Background="LightGray">
+    <Grid>
+        <TextBox Width="233" VerticalAlignment="Top" TextWrapping="Wrap" Margin="486,117,0,0" Height="89" HorizontalAlignment="Left" FontSize="72"/>
+        <TextBox Width="233" VerticalAlignment="Top" TextWrapping="Wrap" Margin="486,224,0,0" Height="86" HorizontalAlignment="Left" FontSize="72"/>
+        <Label VerticalAlignment="Top" Margin="225,104,0,0" HorizontalAlignment="Left" Content="Familia" FontSize="72"/>
+        <Label VerticalAlignment="Top" Margin="83,224,0,0" HorizontalAlignment="Left" Content="Sub Familia" FontSize="72"/>
+        <TextBox Width="650" VerticalAlignment="Top" TextWrapping="Wrap" Margin="753,117,0,0" Height="89" HorizontalAlignment="Left" FontSize="72"/>
+        <TextBox Width="650" VerticalAlignment="Top" TextWrapping="Wrap" Margin="753,224,0,0" Height="86" HorizontalAlignment="Left" FontSize="72"/>
         <dxlc:FlowLayoutControl HorizontalAlignment="Left" Height="158" Margin="10,701,0,0" VerticalAlignment="Top" Width="1580" MaximizedElementPosition="Bottom" Orientation="Horizontal" FlowDirection="RightToLeft">
-            <Button Content="Nuevo" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" Margin="1272,-2,-1529.2,-90.2"/>
-            <Button Content="Guardar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" Margin="925.2,-2,-1211.2,-115.8"/>
-            <Button Content="Editar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" Margin="609.2,-2,-880,-88.6"/>
+            <Button Content="Nuevo" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" Margin="699,-1,-956.2,-91.2" dxlc:FlowLayoutControl.IsFlowBreak="True" Background="DeepSkyBlue" BorderBrush="DeepSkyBlue" Foreground="White" FontSize="72"/>
+            <Button Content="Guardar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" Margin="369,-53,-655,-64.8" BorderBrush="LimeGreen" Foreground="White" Background="LimeGreen" dxlc:FlowLayoutControl.IsFlowBreak="True" OpacityMask="Black" FontSize="72"/>
+            <Button x:Name="btn_edit" Content="Editar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" Margin="39.2,-78.6,-309.2,-12" dxlc:FlowLayoutControl.IsFlowBreak="True" UseLayoutRounding="False" Foreground="White" Background="DarkOrange" BorderBrush="DarkOrange" FontSize="72"/>
         </dxlc:FlowLayoutControl>
-        <Label Content="Status" HorizontalAlignment="Left" Margin="252,360,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="486,360,0,0" VerticalAlignment="Top" Width="917"/>
+        <Label Content="Status" HorizontalAlignment="Left" Margin="252,360,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <ComboBox HorizontalAlignment="Left" Margin="486,360,0,0" VerticalAlignment="Top" Width="917" FontSize="72"/>
     </Grid>
 </Window>

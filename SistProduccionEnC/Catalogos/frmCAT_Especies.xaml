@@ -7,15 +7,21 @@
         xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" x:Class="SistProduccionEnC.Catalogos.frmCAT_Especies"
         mc:Ignorable="d"
         Title="frmCAT_Especies" Height="900" Width="1600">
-    <Grid>
-        <Label Content="Nombre" HorizontalAlignment="Left" Margin="50,37,0,0" VerticalAlignment="Top" FontSize="72"/>
-        <TextBox HorizontalAlignment="Left" Height="106" Margin="350,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1182"/>
-        <Label Content="Estatus" HorizontalAlignment="Left" Margin="50,221,0,0" VerticalAlignment="Top" FontSize="72" Width="273"/>
+    <Grid Background="LightGray">
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="50,185,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <TextBox HorizontalAlignment="Left" Height="106" Margin="350,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1182"/>
+        <Label Content="Estatus" HorizontalAlignment="Left" Margin="50,369,0,0" VerticalAlignment="Top" FontSize="72" Width="273"/>
 
         <dxe:FlyoutControl Content="FlyoutControl" HorizontalAlignment="Left" Height="100" Margin="318,808,0,-39" VerticalAlignment="Top" Width="100"/>
         <dxe:FlyoutControl Content="FlyoutControl" HorizontalAlignment="Left" Height="100" Margin="498,783,0,-14" VerticalAlignment="Top" Width="100"/>
-        <ComboBox HorizontalAlignment="Left" Margin="350,221,0,0" VerticalAlignment="Top" Width="500" Height="106" IsSynchronizedWithCurrentItem="True"/>
+        <ComboBox HorizontalAlignment="Left" Margin="350,369,0,0" VerticalAlignment="Top" Width="500" Height="106" IsSynchronizedWithCurrentItem="True"/>
         <dxe:FlyoutControl Content="FlyoutControl" HorizontalAlignment="Left" Height="200" Margin="498,673,0,0" VerticalAlignment="Top" Width="1000"/>
+        <dxlc:FlowLayoutControl Height="164" Margin="372,695,0,0" VerticalAlignment="Top" Width="1210" HorizontalAlignment="Right" FlowDirection="RightToLeft">
+            <Button Content="Cancelar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" FontSize="36"/>
+            <Button Content="Guardar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" FontSize="36"/>
+            <Button Content="Editar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" FontSize="36"/>
+            <Button Content="Nuevo" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" FontSize="36" Background="LimeGreen" Click="Button_Click" Focusable="False"/>
+        </dxlc:FlowLayoutControl>
 
     </Grid>
 </Window>

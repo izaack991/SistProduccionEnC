@@ -10,6 +10,7 @@
 //------------------------------------------------------------------------------
 
 using DevExpress.Xpf.DXBinding;
+using DevExpress.Xpf.LayoutControl;
 using SistProduccionEnC.Catalogos;
 using System;
 using System.Diagnostics;
