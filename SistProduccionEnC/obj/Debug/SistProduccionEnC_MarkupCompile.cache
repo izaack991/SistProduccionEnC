@@ -4,17 +4,76 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\juand\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+=======
+<<<<<<< HEAD
+C:\Users\Danny\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+=======
+<<<<<<< HEAD
+C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+=======
+<<<<<<< HEAD
+C:\Users\juanl\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+=======
+<<<<<<< HEAD
+C:\Users\isaac\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+=======
+C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+>>>>>>> 0362857a3b37f3b6f189fc9d2f2b0cace3b19a9e
+>>>>>>> da61de9425d2b09f590bb2f3d13659bdeecd7f12
+>>>>>>> 549fd8b06ffb3421fc466d0b6f3fdcc47d7e512b
+>>>>>>> 4c3f27419ed676b31789c367a4e59361f00691f5
+>>>>>>> f85237cdcf1d74793084b287120cadd6d33f28bd
 SistProduccionEnC
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\juand\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+=======
+<<<<<<< HEAD
+C:\Users\Danny\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+>>>>>>> f85237cdcf1d74793084b287120cadd6d33f28bd
 14-2088019401
 
 19-1416538307
 261630758244
 Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_Subfamilias.xaml;MainWindow.xaml;
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+=======
+<<<<<<< HEAD
+C:\Users\juanl\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+>>>>>>> 549fd8b06ffb3421fc466d0b6f3fdcc47d7e512b
+14-2088019401
+
+18-574178940
+301580236655
+<<<<<<< HEAD
+Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;
+=======
+=======
+<<<<<<< HEAD
+C:\Users\isaac\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+14-2088019401
+
+19-1416538307
+=======
+C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+14-2088019401
+
+18-574178940
+>>>>>>> 0362857a3b37f3b6f189fc9d2f2b0cace3b19a9e
+261630758244
+>>>>>>> da61de9425d2b09f590bb2f3d13659bdeecd7f12
+Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_Subfamilias.xaml;MainWindow.xaml;
+>>>>>>> 549fd8b06ffb3421fc466d0b6f3fdcc47d7e512b
+>>>>>>> 4c3f27419ed676b31789c367a4e59361f00691f5
+>>>>>>> f85237cdcf1d74793084b287120cadd6d33f28bd
 
 True
 

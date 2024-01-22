@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace SistProduccionEnC.Catalogos
 {
     /// <summary>
-    /// Lógica de interacción para frm_CAT_Subfamilias.xaml
+    /// Lógica de interacción para frmCAT_Subfamilias.xaml
     /// </summary>
-    public partial class frm_CAT_Subfamilias : Window
+    public partial class frmCAT_Subfamilias : Window
     {
-        public frm_CAT_Subfamilias()
+        public frmCAT_Subfamilias()
         {
             InitializeComponent();
         }
