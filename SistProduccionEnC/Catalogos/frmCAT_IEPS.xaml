@@ -1,12 +1,29 @@
-﻿<Window x:Class="SistProduccionEnC.Catalogos.frm_CAT_IEPS"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SistProduccionEnC.Catalogos"
+        xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" x:Class="SistProduccionEnC.Catalogos.frmCAT_IEPS"
         mc:Ignorable="d"
-        Title="Catálogo de Impuestos Especial a Productos y Servicios" Height="900" Width="1600" FontSize="72">
-    <Grid Margin="0,10,-0.4,0.4">
-        
+        Title="Catálogo de Impuestos Especial a Productos y Servicios" Height="900" Width="1600" Background="LightGray">
+    <Grid>
+
+        <TextBox HorizontalAlignment="Left" Height="89" Margin="641,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" FontSize="72"/>
+        <TextBox HorizontalAlignment="Left" Height="86" Margin="641,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" FontSize="72"/>
+        <Label Content="Tasa de IVA" HorizontalAlignment="Left" Margin="243,109,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <Label Content="Tipo de Impuesto" HorizontalAlignment="Left" Margin="44,211,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <TextBox HorizontalAlignment="Left" Height="89" Margin="905,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="558" FontSize="72"/>
+        <TextBox HorizontalAlignment="Left" Height="86" Margin="905,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="558" FontSize="72"/>
+        <dxlc:FlowLayoutControl HorizontalAlignment="Left" Height="158" Margin="10,701,0,0" VerticalAlignment="Top" Width="1580" MaximizedElementPosition="Bottom" Orientation="Horizontal" FlowDirection="RightToLeft">
+            <Button Content="Nuevo" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" Margin="699,-1,-956.2,-91.2" dxlc:FlowLayoutControl.IsFlowBreak="True" Background="DeepSkyBlue" BorderBrush="DeepSkyBlue" Foreground="White" FontSize="72"/>
+            <Button Content="Guardar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" Margin="369,-53,-655,-64.8" BorderBrush="LimeGreen" Foreground="White" Background="LimeGreen" dxlc:FlowLayoutControl.IsFlowBreak="True" OpacityMask="Black" FontSize="72"/>
+            <Button Content="Editar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" Margin="39.2,-78.6,-309.2,-12" dxlc:FlowLayoutControl.IsFlowBreak="True" UseLayoutRounding="False" Foreground="White" Background="DarkOrange" BorderBrush="DarkOrange" FontSize="72"/>
+        </dxlc:FlowLayoutControl>
+        <Label Content="Status" HorizontalAlignment="Left" Margin="409,360,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <ComboBox HorizontalAlignment="Left" Margin="641,360,0,0" VerticalAlignment="Top" Width="822" FontSize="72"/>
+        <dxe:SpinEdit HorizontalAlignment="Left" Margin="641,511,0,0" VerticalAlignment="Top" Width="822" FontSize="72"/>
+        <Label Content="Porc. Tasa" HorizontalAlignment="Left" Margin="295,510,0,0" VerticalAlignment="Top" FontSize="72"/>
+
     </Grid>
 </Window>

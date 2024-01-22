@@ -35,17 +35,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Charts.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Images.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Mvvm.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Pdf.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Printing.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Charts.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpf.Core.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpf.LayoutControl.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Printing.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -84,6 +88,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Catalogos\frmCAT_IEPS.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Catalogos\frmCAT_INSUMOS.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -104,6 +112,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Catalogos\frmCAT_Subfamilias.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Catalogos\frmCAT_TipoGanado.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -111,14 +123,6 @@
     <Page Include="Catalogos\frmCAT_TiposVehiculo.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Catalogos\frmCAT_IEPS.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Catalogos\frmCAT_Subfamilias.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -140,6 +144,9 @@
     <Compile Include="Catalogos\frmCAT_Familias.xaml.cs">
       <DependentUpon>frmCAT_Familias.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Catalogos\frmCAT_IEPS.xaml.cs">
+      <DependentUpon>frmCAT_IEPS.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Catalogos\frmCAT_INSUMOS.xaml.cs">
       <DependentUpon>frmCAT_INSUMOS.xaml</DependentUpon>
     </Compile>
@@ -155,17 +162,14 @@
     <Compile Include="Catalogos\frmCAT_ProductosCte.xaml.cs">
       <DependentUpon>frmCAT_ProductosCte.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Catalogos\frmCAT_Subfamilias.xaml.cs">
+      <DependentUpon>frmCAT_Subfamilias.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Catalogos\frmCAT_TipoGanado.xaml.cs">
       <DependentUpon>frmCAT_TipoGanado.xaml</DependentUpon>
     </Compile>
     <Compile Include="Catalogos\frmCAT_TiposVehiculo.xaml.cs">
       <DependentUpon>frmCAT_TiposVehiculo.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Catalogos\frmCAT_IEPS.xaml.cs">
-      <DependentUpon>frmCAT_IEPS.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Catalogos\frmCAT_Subfamilias.xaml.cs">
-      <DependentUpon>frmCAT_Subfamilias.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
