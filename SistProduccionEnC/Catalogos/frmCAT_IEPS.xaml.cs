@@ -15,13 +15,15 @@ using System.Windows.Shapes;
 namespace SistProduccionEnC.Catalogos
 {
     /// <summary>
-    /// Lógica de interacción para frm_CAT_IEPS.xaml
+    /// Lógica de interacción para frmCAT_IEPS.xaml
     /// </summary>
-    public partial class frm_CAT_IEPS : Window
+    public partial class frmCAT_IEPS : Window
     {
-        public frm_CAT_IEPS()
+        public frmCAT_IEPS()
         {
             InitializeComponent();
         }
+
+        public MainWindow MdiParent { get; internal set; }
     }
 }

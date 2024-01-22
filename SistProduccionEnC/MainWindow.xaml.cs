@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Forms;
 
 namespace SistProduccionEnC
 {
@@ -23,6 +24,13 @@ namespace SistProduccionEnC
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Catalogos.frmCAT_IEPS IEPS = new Catalogos.frmCAT_IEPS();
+            IEPS.MdiParent = this;
+            IEPS.Show();
         }
     }
 }
