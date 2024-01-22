@@ -76,7 +76,6 @@ C:\Users\Danny\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\SistPr
 C:\Users\Danny\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\SistProduccionEnC.csproj.CopyComplete
 C:\Users\Danny\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\SistProduccionEnC.exe
 =======
-<<<<<<< HEAD
 C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\SistProduccionEnC.csproj.AssemblyReference.cache
 C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\Catalogos\frmCAT_ClasificacionExp.g.cs
 C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\Catalogos\frmCAT_Clientes.g.cs
@@ -206,8 +205,6 @@ C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\bin\Debug\ru\Dev
 C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\SistProduccionEnC.csproj.CoreCompileInputs.cache
 C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\SistProduccionEnC.csproj.CopyComplete
 C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\SistProduccionEnC.exe
-=======
-<<<<<<< HEAD
 C:\Users\juanl\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\SistProduccionEnC.csproj.AssemblyReference.cache
 C:\Users\juanl\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\Catalogos\frmCAT_ClasificacionExp.g.cs
 C:\Users\juanl\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\Catalogos\frmCAT_Clientes.g.cs
@@ -337,7 +334,6 @@ C:\Users\juanl\Source\Repos\SistProduccionEnC\SistProduccionEnC\bin\Debug\ru\Dev
 C:\Users\juanl\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\SistProduccionEnC.csproj.CoreCompileInputs.cache
 C:\Users\juanl\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\SistProduccionEnC.csproj.CopyComplete
 C:\Users\juanl\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\SistProduccionEnC.exe
-=======
 C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\SistProduccionEnC.csproj.AssemblyReference.cache
 C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\Catalogos\frmCAT_ClasificacionExp.g.cs
 C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\Catalogos\frmCAT_Clientes.g.cs

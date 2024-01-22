@@ -20,7 +20,7 @@
         <TextBox HorizontalAlignment="Left" Height="50" Margin="400,404,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" FontSize="36" RenderTransformOrigin="0.096,0.496"/>
         <TextBox HorizontalAlignment="Left" Height="50" Margin="566,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" FontSize="36" RenderTransformOrigin="0.096,0.496"/>
         <TextBox HorizontalAlignment="Left" Height="50" Margin="566,404,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" FontSize="36" RenderTransformOrigin="0.096,0.496"/>
-        <CheckBox Content="MP" HorizontalAlignment="Left" Margin="400,500,0,0" VerticalAlignment="Top" Width="80" FontSize="36" Height="49" Checked="CheckBox_Checked" Padding="0,3" RenderTransformOrigin="0.5,0.5"/>
+        <CheckBox Content="MP" HorizontalAlignment="Left" Margin="400,500,0,0" VerticalAlignment="Top" Width="80" FontSize="36" Height="49" Padding="0,3" RenderTransformOrigin="0.5,0.5"/>
         <Label Content="Días Caducidad" HorizontalAlignment="Left" Margin="90,603,0,0" VerticalAlignment="Top" Height="58" Width="281" FontSize="36"/>
         <dxe:SpinEdit HorizontalAlignment="Left" Margin="371,603,0,0" VerticalAlignment="Top" Width="80" Height="58"/>
         <Label Content="Refrigeración" HorizontalAlignment="Left" Margin="476,603,0,0" VerticalAlignment="Top" Height="58" Width="216" FontSize="36"/>
@@ -40,7 +40,7 @@
 
         <dxlc:FlowLayoutControl HorizontalAlignment="Left" Height="161" Margin="0,709,-0.4,0" VerticalAlignment="Top" Width="1594" MaximizedElementPosition="Bottom" Orientation="Horizontal">
             <Button Content="Editar" HorizontalAlignment="Center" VerticalAlignment="Center" Width="286" Height="137" Margin="1215,-2,-1213.8,-23.8" FontSize="36" BorderBrush="DarkOrange" Background="DarkOrange"/>
-            <Button Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="286" Height="137" Margin="607,-2,-605,-23.8" FontSize="36" Click="Button_Click" Background="LimeGreen" BorderBrush="LimeGreen"/>
+            <Button Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="286" Height="137" Margin="607,-2,-605,-23.8" FontSize="36" Background="LimeGreen" BorderBrush="LimeGreen"/>
             <Button Content="Nuevo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="286" Height="137" Margin="-3,-2,-4.6,-23.8" FontSize="36" Background="DeepSkyBlue" BorderBrush="DeepSkyBlue"/>
         </dxlc:FlowLayoutControl>
 
