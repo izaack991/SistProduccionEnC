@@ -4,17 +4,45 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+=======
+<<<<<<< HEAD
+C:\Users\juanl\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+=======
+<<<<<<< HEAD
+C:\Users\isaac\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+=======
+C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+>>>>>>> 0362857a3b37f3b6f189fc9d2f2b0cace3b19a9e
+>>>>>>> da61de9425d2b09f590bb2f3d13659bdeecd7f12
+>>>>>>> 549fd8b06ffb3421fc466d0b6f3fdcc47d7e512b
 SistProduccionEnC
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+=======
+<<<<<<< HEAD
+C:\Users\juanl\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+=======
+<<<<<<< HEAD
+C:\Users\isaac\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+=======
+C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+>>>>>>> 0362857a3b37f3b6f189fc9d2f2b0cace3b19a9e
+>>>>>>> da61de9425d2b09f590bb2f3d13659bdeecd7f12
+>>>>>>> 549fd8b06ffb3421fc466d0b6f3fdcc47d7e512b
 14-2088019401
 
 19-1416538307
 301580236655
+<<<<<<< HEAD
 Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;
+=======
+Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_Subfamilias.xaml;MainWindow.xaml;
+>>>>>>> 549fd8b06ffb3421fc466d0b6f3fdcc47d7e512b
 
 True
 

@@ -1,12 +1,23 @@
-﻿<Window x:Class="SistProduccionEnC.Catalogos.frmCAT_Familias"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SistProduccionEnC.Catalogos"
+        xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" x:Class="SistProduccionEnC.Catalogos.frmCAT_Familias"
         mc:Ignorable="d"
-        Title="frmCAT_Familias" Height="450" Width="800">
+        Title="frmCAT_Familias" Height="900" Width="1600">
     <Grid>
-        
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="142,91,0,0" VerticalAlignment="Top" Height="123" Width="287" FontSize="72" RenderTransformOrigin="0.553,0.986"/>
+        <ComboBox HorizontalAlignment="Left" Margin="481,321,0,0" VerticalAlignment="Top" Width="913" Height="123"/>
+        <TextBox HorizontalAlignment="Left" Height="123" Margin="481,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="913" FontSize="36" RenderTransformOrigin="0.096,0.496"/>
+        <Label Content="Status" HorizontalAlignment="Left" Margin="142,321,0,0" VerticalAlignment="Top" Height="123" Width="287" FontSize="72" RenderTransformOrigin="0.553,0.986"/>
+
+        <dxlc:FlowLayoutControl HorizontalAlignment="Left" Height="161" Margin="0,709,-0.4,0" VerticalAlignment="Top" Width="1594" MaximizedElementPosition="Bottom" Orientation="Horizontal">
+            <Button Content="Editar" HorizontalAlignment="Center" VerticalAlignment="Center" Width="286" Height="137" Margin="1215,-2,-1213.8,-23.8" FontSize="36" Background="DarkOrange" BorderBrush="DarkOrange"/>
+            <Button Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="286" Height="137" Margin="607,-2,-605,-23.8" FontSize="36" Click="Button_Click" Background="LimeGreen" BorderBrush="LimeGreen" Foreground="Black"/>
+            <Button Content="Nuevo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="286" Height="137" Margin="-3,-2,-4.6,-23.8" FontSize="36" Background="DeepSkyBlue" BorderBrush="DeepSkyBlue"/>
+        </dxlc:FlowLayoutControl>
+
     </Grid>
 </Window>
