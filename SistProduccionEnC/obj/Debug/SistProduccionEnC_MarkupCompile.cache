@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\isaac\source\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+C:\Users\juanl\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
 SistProduccionEnC
 none
 false
 DEBUG;TRACE
-C:\Users\isaac\source\SistProduccionEnC\SistProduccionEnC\App.xaml
-8-952727433
+C:\Users\juanl\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+14-2088019401
 
-13-825829288
-261630758244
-Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frm_CAT_IEPS.xaml;Catalogos\frm_CAT_Subfamilias.xaml;MainWindow.xaml;
+18-574178940
+301580236655
+Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_Subfamilias.xaml;MainWindow.xaml;
 
-True
+False
 
