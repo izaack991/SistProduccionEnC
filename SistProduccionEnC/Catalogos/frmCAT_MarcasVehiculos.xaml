@@ -1,12 +1,22 @@
-﻿<Window x:Class="SistProduccionEnC.Catalogos.frmCAT_MarcasVehiculos"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SistProduccionEnC.Catalogos"
+        xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" x:Class="SistProduccionEnC.Catalogos.frmCAT_MarcasVehiculos"
         mc:Ignorable="d"
-        Title="frmCAT_MarcasVehiculos" Height="450" Width="800">
+        Title="MarcasVehiculos         " Height="900         " Width="1600         " Background="LightGray">
     <Grid>
-        
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="52,45,0,0" VerticalAlignment="Top" FontSize="72" RenderTransformOrigin="0.044,-0.02"/>
+        <TextBox HorizontalAlignment="Left" Height="109" Margin="356,45,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="1012" FontSize="72"/>
+
+        <dxlc:FlowLayoutControl HorizontalAlignment="Left" Height="199" Margin="354,659,0,0" VerticalAlignment="Top" Width="1236">
+            <Button Content="Nuevo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="286" Height="137" Background="DeepSkyBlue" FontSize="36" Foreground="White" Margin="20,21,-20,-21" FontWeight="Bold"/>
+            <Button Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="286" Height="137" Background="LimeGreen" FontSize="36" Foreground="White" Margin="18,21,-18,-21" FontWeight="Bold"/>
+            <Button Content="Editar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="286" Height="137" Background="DarkOrange" FontSize="36" Foreground="White" Margin="16,21,-16,-21" FontWeight="Bold"/>
+            <Button Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="286" Height="137" Background="Red" FontSize="36" Foreground="White" Margin="14,21,-14,-21" FontWeight="Bold"/>
+        </dxlc:FlowLayoutControl>
+
     </Grid>
 </Window>
