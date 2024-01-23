@@ -4,17 +4,30 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+=======
+C:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+>>>>>>> ec022052fce8567781b063e6ab79ff09e32885fe
 SistProduccionEnC
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
 15-592953827
+=======
+C:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+14-2088019401
+>>>>>>> ec022052fce8567781b063e6ab79ff09e32885fe
 
 20-1217446059
 301580236655
+<<<<<<< HEAD
 Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;Procesos\frmKPI_INGESTA.xaml;
+=======
+Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;
+>>>>>>> ec022052fce8567781b063e6ab79ff09e32885fe
 
 True
 
