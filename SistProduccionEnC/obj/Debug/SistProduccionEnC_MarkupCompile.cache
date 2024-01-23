@@ -4,11 +4,16 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+=======
+C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
+>>>>>>> 1ea5e9a86d3d0d94fbebde10dc40610673de2a03
 SistProduccionEnC
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
 14-2088019401
 
@@ -17,4 +22,14 @@ C:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\A
 Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;
 
 True
+=======
+C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+14-2088019401
+
+18-574178940
+301580236655
+Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;
+
+False
+>>>>>>> 1ea5e9a86d3d0d94fbebde10dc40610673de2a03
 
