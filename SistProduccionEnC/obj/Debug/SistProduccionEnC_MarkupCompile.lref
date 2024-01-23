@@ -1,5 +1,6 @@
 ﻿
 
+<<<<<<< HEAD
 FC:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_ClasificacionExp.xaml;;
 FC:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_Clientes.xaml;;
 FC:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_Especies.xaml;;
@@ -14,4 +15,37 @@ FC:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\Catal
 FC:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_TipoGanado.xaml;;
 FC:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_TiposVehiculo.xaml;;
 FC:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\MainWindow.xaml;;
+=======
+<<<<<<< HEAD
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_ClasificacionExp.xaml;;
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_Clientes.xaml;;
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_Especies.xaml;;
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_Familias.xaml;;
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_IEPS.xaml;;
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_INSUMOS.xaml;;
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_IVA.xaml;;
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_MarcasVehiculos.xaml;;
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_Productos.xaml;;
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_ProductosCte.xaml;;
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_Subfamilias.xaml;;
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_TipoGanado.xaml;;
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_TiposVehiculo.xaml;;
+FC:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\MainWindow.xaml;;
+=======
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_ClasificacionExp.xaml;;
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_Clientes.xaml;;
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_Especies.xaml;;
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_Familias.xaml;;
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_IEPS.xaml;;
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_INSUMOS.xaml;;
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_IVA.xaml;;
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_MarcasVehiculos.xaml;;
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_Productos.xaml;;
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_ProductosCte.xaml;;
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_Subfamilias.xaml;;
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_TipoGanado.xaml;;
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\Catalogos\frmCAT_TiposVehiculo.xaml;;
+FC:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\MainWindow.xaml;;
+>>>>>>> 1ea5e9a86d3d0d94fbebde10dc40610673de2a03
+>>>>>>> 1214be9528692d8b658b47b3bd202554d0b98f07
 
