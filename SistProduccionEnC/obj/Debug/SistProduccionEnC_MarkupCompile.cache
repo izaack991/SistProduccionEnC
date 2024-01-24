@@ -4,51 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
 C:\Users\Danny\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
-=======
-<<<<<<< HEAD
-C:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
-=======
-<<<<<<< HEAD
-C:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
-=======
-<<<<<<< HEAD
-C:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
-=======
-C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
->>>>>>> 1ea5e9a86d3d0d94fbebde10dc40610673de2a03
->>>>>>> 1214be9528692d8b658b47b3bd202554d0b98f07
->>>>>>> ec022052fce8567781b063e6ab79ff09e32885fe
->>>>>>> 3e655abd6bc47142bff7b39d76885759324b54dd
 SistProduccionEnC
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 C:\Users\Danny\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-17-1418267456
+17-360635382
 
-21-570638646
+22-550728054
 311310417350
-Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;Utilerias\FrmAbrirCerrarCorte.xaml;Utilerias\frmMisc_1.xaml;Utilerias\frmUtil_Contrasena.xaml;
+Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;Procesos\frmKPI_INGESTA.xaml;Utilerias\FrmAbrirCerrarCorte.xaml;Utilerias\frmUtil_Contrasena.xaml;
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-C:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-=======
-<<<<<<< HEAD
->>>>>>> ec022052fce8567781b063e6ab79ff09e32885fe
-C:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
->>>>>>> 1214be9528692d8b658b47b3bd202554d0b98f07
-14-2088019401
-
-18-574178940
-301580236655
-Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;
-
->>>>>>> 3e655abd6bc47142bff7b39d76885759324b54dd
 True
 

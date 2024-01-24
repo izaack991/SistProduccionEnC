@@ -4,43 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
 C:\Users\Danny\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
-=======
-<<<<<<< HEAD
-C:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
-=======
-C:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
->>>>>>> ec022052fce8567781b063e6ab79ff09e32885fe
->>>>>>> 3e655abd6bc47142bff7b39d76885759324b54dd
 SistProduccionEnC
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 C:\Users\Danny\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-16-1855700956
+17-360635382
 
-21-749820302
+22-550728054
 311310417350
-Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;Utilerias\FrmAbrirCerrarCorte.xaml;Utilerias\frmUtil_Contrasena.xaml;
-=======
-<<<<<<< HEAD
-C:\Users\luiseduardovelazquez\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-15-592953827
-=======
-C:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-14-2088019401
->>>>>>> ec022052fce8567781b063e6ab79ff09e32885fe
+Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;Procesos\frmKPI_INGESTA.xaml;Utilerias\FrmAbrirCerrarCorte.xaml;Utilerias\frmUtil_Contrasena.xaml;
 
-20-1217446059
-301580236655
-<<<<<<< HEAD
-Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;Procesos\frmKPI_INGESTA.xaml;
-=======
-Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;
->>>>>>> ec022052fce8567781b063e6ab79ff09e32885fe
->>>>>>> 3e655abd6bc47142bff7b39d76885759324b54dd
-
-False
+True
 

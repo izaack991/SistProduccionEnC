@@ -73,6 +73,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Procesos\frmKPI_INGESTA.xaml.cs">
+      <DependentUpon>frmKPI_INGESTA.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Utilerias\FrmAbrirCerrarCorte.xaml.cs">
       <DependentUpon>FrmAbrirCerrarCorte.xaml</DependentUpon>
     </Compile>
@@ -182,6 +185,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Procesos\frmKPI_INGESTA.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Utilerias\FrmAbrirCerrarCorte.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
