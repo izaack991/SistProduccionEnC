@@ -15,7 +15,7 @@
 
         <dxlc:FlowLayoutControl HorizontalAlignment="Left" Height="161" Margin="0,709,-0.4,0" VerticalAlignment="Top" Width="1594" MaximizedElementPosition="Bottom" Orientation="Horizontal">
             <Button Content="Editar" HorizontalAlignment="Center" VerticalAlignment="Center" Width="286" Height="137" Margin="1215,-2,-1213.8,-23.8" FontSize="36" Background="DarkOrange" BorderBrush="DarkOrange"/>
-            <Button Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="286" Height="137" Margin="607,-2,-605,-23.8" FontSize="36" Click="Button_Click" Background="LimeGreen" BorderBrush="LimeGreen" Foreground="Black"/>
+            <Button Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="286" Height="137" Margin="607,-2,-605,-23.8" FontSize="36" Background="LimeGreen" BorderBrush="LimeGreen" Foreground="Black"/>
             <Button Content="Nuevo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="286" Height="137" Margin="-3,-2,-4.6,-23.8" FontSize="36" Background="DeepSkyBlue" BorderBrush="DeepSkyBlue"/>
         </dxlc:FlowLayoutControl>
 
