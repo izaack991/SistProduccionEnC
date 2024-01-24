@@ -9,42 +9,42 @@
         Title="frmCAT_Productos" Height="900
    " Width="1600">
     <Grid Background="LightGray">
-        <Label Content="Código" HorizontalAlignment="Left" Margin="138,25,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <Label Content="Clave Fiscal" HorizontalAlignment="Left" Margin="74,101,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <Label Content="Estatus" HorizontalAlignment="Left" Margin="142,177,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <TextBox HorizontalAlignment="Left" Height="54" Margin="278,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="36"/>
-        <TextBox HorizontalAlignment="Left" Height="54" Margin="278,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="36"/>
-        <TextBox HorizontalAlignment="Left" Height="54" Margin="583,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="950" FontSize="36"/>
-        <TextBox HorizontalAlignment="Left" Height="54" Margin="583,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="950" FontSize="36"/>
+        <Label x:Name="LBL_CODIGO" Content="Código" HorizontalAlignment="Left" Margin="138,25,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_CFISCAL" Content="Clave Fiscal" HorizontalAlignment="Left" Margin="74,101,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_ESTATUS" Content="Estatus" HorizontalAlignment="Left" Margin="142,177,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <TextBox x:Name="TXT_CFISCAL" HorizontalAlignment="Left" Height="54" Margin="278,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="36"/>
+        <TextBox x:Name="TXT_CODPROD" HorizontalAlignment="Left" Height="54" Margin="278,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="36"/>
+        <TextBox x:Name="TXT_NOMPROD" HorizontalAlignment="Left" Height="54" Margin="583,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="950" FontSize="36"/>
+        <TextBox x:Name="TXT_NOMCLAVE" HorizontalAlignment="Left" Height="54" Margin="583,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="950" FontSize="36"/>
 
-        <dxlc:FlowLayoutControl HorizontalAlignment="Left" Height="162" Margin="374,665,0,0" VerticalAlignment="Top" Width="1208">
-            <Button Content="Nuevo" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" FontSize="36"/>
-            <Button Content="Editar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" FontSize="36"/>
-            <Button Content="Guardar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" FontSize="36"/>
-            <Button Content="Cancelar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" FontSize="36"/>
+        <dxlc:FlowLayoutControl x:Name="FLC_BOTONES" HorizontalAlignment="Left" Height="162" Margin="374,665,0,0" VerticalAlignment="Top" Width="1208">
+            <Button x:Name="BTN_NUEVO" Content="Nuevo" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" FontSize="36" FontWeight="Bold" Foreground="White" Background="DeepSkyBlue"/>
+            <Button x:Name="BTN_EDITAR" Content="Editar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" FontSize="36" FontWeight="Bold" Foreground="White" Background="DarkOrange"/>
+            <Button x:Name="BTN_GUARDAR" Content="Guardar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" FontSize="36" FontWeight="Bold" Foreground="White" Background="LimeGreen"/>
+            <Button x:Name="BTN_CANCELAR" Content="Cancelar" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="286" FontSize="36" FontWeight="Bold" Foreground="White" Background="Red"/>
         </dxlc:FlowLayoutControl>
         <dxlc:GroupBox Header="Clasificadores" HorizontalAlignment="Left" Margin="771,194,0,0" VerticalAlignment="Top">
             <dxlc:LayoutGroup Width="553" Height="352">
-                <Label Content="Especie" FontSize="36" Margin="104,10,-105,-10" Width="119" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-                <Label Content="Familia" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" Margin="-18,64,-101,-64" Width="119"/>
-                <Label Content="Subfamilia" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" Margin="-72,118,-47,-118" Width="169"/>
-                <Label Content="Cuarto" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" Margin="-76,172,-43,-172" Width="119"/>
-                <Label Content="Clasif. Exp" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" Margin="-130,226,-39,-226" Width="169"/>
-                <Label Content="Refrigeración" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" Margin="-178,280,-8,-280" Width="213"/>
+                <Label x:Name="LBL_ESPECIE" Content="Especie" FontSize="36" Margin="104,10,-105,-10" Width="119" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                <Label x:Name="LBL_FAMILIA" Content="Familia" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" Margin="-18,64,-101,-64" Width="119"/>
+                <Label x:Name="LBL_SUBFAMILIA" Content="Subfamilia" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" Margin="-72,118,-47,-118" Width="169"/>
+                <Label x:Name="LBL_CUARTO" Content="Cuarto" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" Margin="-76,172,-43,-172" Width="119"/>
+                <Label x:Name="LBL_CEXP" Content="Clasif. Exp" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" Margin="-130,226,-39,-226" Width="169"/>
+                <Label x:Name="LBL_REFRIGERACION" Content="Refrigeración" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" Margin="-178,280,-8,-280" Width="213"/>
                 <dxlc:LayoutItem Label="" Margin="-90,10,90,-10"/>
             </dxlc:LayoutGroup>
         </dxlc:GroupBox>
-        <ComboBox HorizontalAlignment="Left" Margin="278,177,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
-        <ComboBox HorizontalAlignment="Left" Margin="1034,239,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
-        <ComboBox HorizontalAlignment="Left" Margin="1034,293,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
-        <ComboBox HorizontalAlignment="Left" Margin="1034,347,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
-        <ComboBox HorizontalAlignment="Left" Margin="1034,401,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
-        <ComboBox HorizontalAlignment="Left" Margin="1034,455,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
-        <ComboBox HorizontalAlignment="Left" Margin="1034,509,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
+        <ComboBox x:Name="CMB_ESTATUS" HorizontalAlignment="Left" Margin="278,177,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
+        <ComboBox x:Name="CMB_ESPECIE" HorizontalAlignment="Left" Margin="1034,239,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
+        <ComboBox x:Name="CMB_FAMILIA" HorizontalAlignment="Left" Margin="1034,293,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
+        <ComboBox x:Name="CMB_SUBFAMILIA" HorizontalAlignment="Left" Margin="1034,347,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
+        <ComboBox x:Name="CMB_CUARTO" HorizontalAlignment="Left" Margin="1034,401,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
+        <ComboBox x:Name="CMB_CEXP" HorizontalAlignment="Left" Margin="1034,455,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
+        <ComboBox x:Name="LBL_REFRIGERACION1" HorizontalAlignment="Left" Margin="1034,509,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
         <dxlc:GroupBox Header="Impuestos" HorizontalAlignment="Left" Margin="99,373,0,0" VerticalAlignment="Top" Width="497" Height="160"/>
-        <Label Content="Tasa IVA" HorizontalAlignment="Left" Margin="131,401,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <Label Content="Tasa IEPS" HorizontalAlignment="Left" Margin="117,455,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <ComboBox HorizontalAlignment="Left" Margin="278,401,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
+        <Label x:Name="LBL_IVA" Content="Tasa IVA" HorizontalAlignment="Left" Margin="131,401,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_IEPS" Content="Tasa IEPS" HorizontalAlignment="Left" Margin="117,455,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <ComboBox x:Name="CMB_IVA" HorizontalAlignment="Left" Margin="278,401,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
         <ComboBox HorizontalAlignment="Left" Margin="278,455,0,0" VerticalAlignment="Top" Width="300" Height="54"/>
 
     </Grid>

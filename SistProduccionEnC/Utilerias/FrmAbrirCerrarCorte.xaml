@@ -1,0 +1,26 @@
+﻿<Window x:Class="SistProduccionEnC.Utilerias.FrmAbrirCerrarCorte"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SistProduccionEnC.Utilerias"
+        mc:Ignorable="d"
+        Title="FrmAbrirCerrarCorte" Height="900.8" Width="1600">
+    <Grid Width="1600" Height="900" Background="LightGray">
+        <Button x:Name="BTN_GUARDAR" Content="Guardar" Margin="1262,702,50,36" Width="286" Height="137" Foreground="White" FontSize="36" FontWeight="Bold"/>
+        <Label x:Name="LBL_FCORTE" Content="FOLIO DE CORTE" HorizontalAlignment="Left" Margin="50,30,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <Label x:Name="LBL_LCORTE" Content="LOTE DE CORTE" Margin="91,156,1016,0" VerticalAlignment="Top" FontSize="72"/>
+        <Label x:Name="LBL_ABRCERR" Content="ABRIR/CERRAR" HorizontalAlignment="Left" Margin="1037,30,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <TextBox x:Name="TXT_FCORTE" HorizontalAlignment="Left" Height="108" Margin="616,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" FontSize="72"/>
+        <TextBox x:Name="TXT_LCORTE" Height="108" Margin="616,150,634,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" IsEnabled="False"/>
+        <CheckBox x:Name="CHK_ESTADOCORTE" Content="" HorizontalAlignment="Center" Margin="1263,156,183,0" VerticalAlignment="Top" FontSize="36" IsChecked="False" Width="154" Height="75" IsEnabled="True"/>
+        <Label x:Name="LBL_INTRODUCTOR" Content="INTRODUCTOR" HorizontalAlignment="Left" Margin="10,441,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <Label x:Name="LBL_DESTINO" Content="DESTINO" HorizontalAlignment="Left" Margin="204,543,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <TextBox x:Name="TXT_MARCAINTRODUCTOR" HorizontalAlignment="Left" Height="100" Margin="547,435,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="72"/>
+        <TextBox x:Name="TXT_MARCADESTINO" HorizontalAlignment="Left" Height="100" Margin="547,545,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="72"/>
+        <TextBox x:Name="TXT_NOMINTRODUCTOR" HorizontalAlignment="Left" Height="100" Margin="854,435,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="695" FontSize="72" IsEnabled="False"/>
+        <TextBox x:Name="TXT_NOMDESTINO" HorizontalAlignment="Left" Height="100" Margin="854,545,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="695" FontSize="72" IsEnabled="False"/>
+        <Label x:Name="LBL_DATCLIENTE" Content="ABRIR/CERRAR" Margin="561,300,561,0" VerticalAlignment="Top" FontSize="72"/>
+
+    </Grid>
+</Window>

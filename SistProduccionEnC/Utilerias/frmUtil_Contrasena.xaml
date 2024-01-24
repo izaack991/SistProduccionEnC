@@ -1,0 +1,14 @@
+﻿<Window x:Class="SistProduccionEnC.Utilerias.frmUtil_Contrasena"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SistProduccionEnC.Utilerias"
+        mc:Ignorable="d"
+        Title="frmUtil_Contrasena" Height="450" Width="800">
+    <Grid Background="LightGray">
+        <TextBox Height="108" Margin="146,80,146,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Panel.ZIndex="-1" Width="500"/>
+        <Button Content="Aceptar" Margin="50,246,456,36" FontSize="36" Background="Red" Foreground="White" FontWeight="Bold"/>
+        <Button Content="Cancelar" Margin="456,246,50,36" FontSize="36" Background="LimeGreen" Foreground="White" FontWeight="Bold"/>
+    </Grid>
+</Window>
