@@ -76,6 +76,12 @@
     <Compile Include="Procesos\frmKPI_INGESTA.xaml.cs">
       <DependentUpon>frmKPI_INGESTA.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Procesos\frmOrdenProduccionPie.xaml.cs">
+      <DependentUpon>frmOrdenProduccionPie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FRM_PROGRAMA_SACRIFICIO.xaml.cs">
+      <DependentUpon>FRM_PROGRAMA_SACRIFICIO.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Utilerias\FrmAbrirCerrarCorte.xaml.cs">
       <DependentUpon>FrmAbrirCerrarCorte.xaml</DependentUpon>
     </Compile>
@@ -186,6 +192,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Procesos\frmKPI_INGESTA.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Procesos\frmOrdenProduccionPie.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Procesos\FRM_PROGRAMA_SACRIFICIO.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

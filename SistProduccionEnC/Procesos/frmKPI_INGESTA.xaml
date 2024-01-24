@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SistProduccionEnC.Procesos"
         mc:Ignorable="d"
-        Title="frmKPI_INGESTA" Height="450" Width="800">
+        Title="KPI_INGESTA" Height="900" Width="1600" Background="LightGray">
     <Grid>
-        
+        <Label x:Name="LBL_TITULO" Content="Datos de Introductor" HorizontalAlignment="Left" Margin="667,10,0,0" VerticalAlignment="Top" Height="62" Width="342" FontSize="36"/>
+        <Label x:Name="LBL_FECHA" Content="Fecha" HorizontalAlignment="Left" Margin="130,70,0,0" VerticalAlignment="Top" Height="59" Width="98" FontSize="36"/>
+        <DatePicker x:Name="DTP_FECHA" HorizontalAlignment="Left" Margin="233,69,0,0" VerticalAlignment="Top" Height="59" FontSize="36" Width="479"/>
+        <Label x:Name="LBL_INTRODUCTOR" Content="Introductor" HorizontalAlignment="Left" Margin="42,134,0,0" VerticalAlignment="Top" Height="59" Width="186" FontSize="36"/>
+        <Label x:Name="LBL_LOTE" Content="Lote" HorizontalAlignment="Left" Margin="159,220,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_INGESTA" Content="C/INGESTA" HorizontalAlignment="Left" Margin="53,299,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <TextBox x:Name="TXT_INTRODUCTOR" HorizontalAlignment="Left" Height="59" Margin="233,134,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="298" FontSize="36"/>
+        <TextBox x:Name="TXT_LOTE" HorizontalAlignment="Left" Height="59" Margin="233,215,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="298" FontSize="36"/>
+        <TextBox x:Name="TXT_INGESTA" HorizontalAlignment="Left" Height="59" Margin="233,299,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="298" FontSize="36"/>
+        <Label x:Name="LBL_HECES" Content="C/HECES" HorizontalAlignment="Left" Margin="564,299,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <TextBox x:Name="TXT_HECES" HorizontalAlignment="Left" Height="59" Margin="709,299,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="298" FontSize="36"/>
+        <Label x:Name="LBL_HECES_Copy" Content="C/LECHE" HorizontalAlignment="Left" Margin="1047,299,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <TextBox x:Name="TXT_LECHE" HorizontalAlignment="Left" Height="59" Margin="1191,299,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="298" FontSize="36"/>
+        <TextBox x:Name="TXT_INTRODUCTOR_1" HorizontalAlignment="Left" Height="59" Margin="564,134,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="571" FontSize="36"/>
+        <Label x:Name="LBL_OBSERVACIONES" Content="Observaciones" HorizontalAlignment="Left" Margin="709,386,0,0" VerticalAlignment="Top" Height="62" Width="233" FontSize="36"/>
+        <TextBox x:Name="TXT_OBSERVACIONES" HorizontalAlignment="Left" Height="220" Margin="53,461,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="1486" FontSize="36"/>
+        <Button x:Name="BTN_NUEVO" Content="Nuevo" HorizontalAlignment="Left" Margin="954,709,0,0" VerticalAlignment="Top" Width="286" Height="137" FontSize="36" FontWeight="Bold" Foreground="White" Background="DeepSkyBlue"/>
+        <Button x:Name="BTN_GUARDAR" Content="Guardar" HorizontalAlignment="Left" Margin="1245,709,0,0" VerticalAlignment="Top" Width="286" Height="137" FontSize="36" FontWeight="Bold" Foreground="White" Background="LimeGreen"/>
     </Grid>
 </Window>
