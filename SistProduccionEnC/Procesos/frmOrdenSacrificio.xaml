@@ -1,0 +1,20 @@
+﻿<Window x:Class="SistProduccionEnC.Procesos.frmOrdenSacrificio"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SistProduccionEnC.Procesos"
+        mc:Ignorable="d"
+        Title="frmOrdenSacrificio" Height="900" Width="1600">
+    <Grid Background="LightGray">
+        <Button x:Name="BTN_GUARDAR" Content="Nuevo" Margin="1296,722,10,10" Width="286" Height="137" Foreground="White" FontSize="36" FontWeight="Bold" Background="DeepSkyBlue"/>
+        <Button x:Name="BTN_MODIFICAR" Content="Modificar" Margin="1008,722,298,10" Width="286" Height="137" Foreground="White" FontSize="36" FontWeight="Bold" Background="DarkOrange"/>
+        <DataGrid x:Name="DGV_OSACRIFICIO" HorizontalAlignment="Left" Height="530" Margin="10,167,0,0" VerticalAlignment="Top" Width="1572"/>
+        <Label x:Name="LBL_ESTATUS" Content="Estatus" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <ComboBox x:Name="CMB_ESTATUS" HorizontalAlignment="Left" Margin="243,38,0,0" VerticalAlignment="Top" Width="412" FontSize="22" Height="102"/>
+        <Label x:Name="LBL_FECHA" Content="Fecha" HorizontalAlignment="Left" Margin="692,38,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <DatePicker x:Name="DTP_FECHA" HorizontalAlignment="Left" Margin="884,38,0,0" VerticalAlignment="Top" FontSize="72" Height="102"/>
+        <Button x:Name="BTN_ATRAS" Content="Atras" Margin="10,722,1296,10" Width="286" Height="137" Foreground="White" FontSize="36" FontWeight="Bold" Background="DarkOrange"/>
+
+    </Grid>
+</Window>
