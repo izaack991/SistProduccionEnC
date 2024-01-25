@@ -20,7 +20,7 @@
         <TextBox x:Name="TXT_HECES" HorizontalAlignment="Left" Height="59" Margin="709,299,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="298" FontSize="36"/>
         <Label x:Name="LBL_HECES_Copy" Content="C/LECHE" HorizontalAlignment="Left" Margin="1047,299,0,0" VerticalAlignment="Top" FontSize="36"/>
         <TextBox x:Name="TXT_LECHE" HorizontalAlignment="Left" Height="59" Margin="1191,299,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="298" FontSize="36"/>
-        <TextBox x:Name="TXT_INTRODUCTOR_1" HorizontalAlignment="Left" Height="59" Margin="564,134,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="571" FontSize="36"/>
+        <TextBox x:Name="TXT_INTRODUCTOR_1" HorizontalAlignment="Left" Height="59" Margin="564,134,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="571" FontSize="36" IsEnabled="False"/>
         <Label x:Name="LBL_OBSERVACIONES" Content="Observaciones" HorizontalAlignment="Left" Margin="709,386,0,0" VerticalAlignment="Top" Height="62" Width="233" FontSize="36"/>
         <TextBox x:Name="TXT_OBSERVACIONES" HorizontalAlignment="Left" Height="220" Margin="53,461,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="1486" FontSize="36"/>
         <Button x:Name="BTN_NUEVO" Content="Nuevo" HorizontalAlignment="Left" Margin="954,709,0,0" VerticalAlignment="Top" Width="286" Height="137" FontSize="36" FontWeight="Bold" Foreground="White" Background="DeepSkyBlue"/>

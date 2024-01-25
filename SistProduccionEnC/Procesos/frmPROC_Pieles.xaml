@@ -1,0 +1,46 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SistProduccionEnC.Procesos"
+        xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" x:Class="SistProduccionEnC.Procesos.frmPROC_Pieles"
+        mc:Ignorable="d"
+        Title="Registro de pieles" Height="900" Width="1600" Background="LightGray">
+    <Grid>
+
+        <dxlc:GroupBox x:Name="GPX_DATOS" Header="Datos del lote:" HorizontalAlignment="Left" Height="190" Margin="30,27,0,0" VerticalAlignment="Top" Width="1197" FontSize="36">
+            <dx:SimpleButton x:Name="SBTN_BUSCAR" Content="Buscar" HorizontalAlignment="Left" Height="51" Margin="684,0,0,0" VerticalAlignment="Top" Width="124"/>
+        </dxlc:GroupBox>
+        <Label x:Name="LBL_PRODUCTOR" Content="Productor" HorizontalAlignment="Left" Margin="52,147,0,0" VerticalAlignment="Top" Height="50" Width="160" FontSize="36" RenderTransformOrigin="0.591,0"/>
+        <ComboBox x:Name="CMB_PRODUCTO" HorizontalAlignment="Left" Margin="212,92,0,0" VerticalAlignment="Top" Width="280" FontSize="36" Height="50"/>
+        <TextBox x:Name="TXT_PRODUCTOR" HorizontalAlignment="Left" Height="50" Margin="212,147,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="374" FontSize="36"/>
+        <TextBox x:Name="TXT_PRODUCTOR1" HorizontalAlignment="Left" Height="50" Margin="596,147,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="611" FontSize="36" IsEnabled="False"/>
+        <Label x:Name="LBL_LOTE" Content="Lote" HorizontalAlignment="Left" Height="50" Margin="516,92,0,0" VerticalAlignment="Top" Width="70" FontSize="36"/>
+        <TextBox x:Name="TXT_LOTE" HorizontalAlignment="Left" Height="50" Margin="596,92,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="119" FontSize="36" RenderTransformOrigin="0.517,1.1"/>
+        <DatePicker x:Name="DTP_FECHA" HorizontalAlignment="Left" Height="50" Margin="857,91,0,0" VerticalAlignment="Top" Width="370" FontSize="36"/>
+        <Label x:Name="LBL_PRODUCTO" Content="Producto" HorizontalAlignment="Left" Margin="57,92,0,0" VerticalAlignment="Top" Height="50" Width="155" FontSize="36"/>
+        <dxlc:GroupBox x:Name="GPX_DATOSREGISTRO" Header="Datos del registro                                         Aretes" HorizontalAlignment="Left" Height="201" Margin="30,240,0,0" VerticalAlignment="Top" Width="892" FontSize="36">
+            <RadioButton x:Name="RBT_MACHO" Content="Macho" HorizontalAlignment="Left" Height="50" Margin="10,0,0,0" VerticalAlignment="Top" Width="134"/>
+        </dxlc:GroupBox>
+        <RadioButton x:Name="RBT_HEMBRA" Content="Hembra" HorizontalAlignment="Left" Height="50" Margin="52,367,0,0" VerticalAlignment="Top" Width="153" FontSize="36"/>
+        <CheckBox Content="Decomisar" HorizontalAlignment="Left" Height="50" Margin="212,309,0,0" VerticalAlignment="Top" Width="190" FontSize="36"/>
+        <Label x:Name="LBL_SAGARPA" Content="Sagarpa" HorizontalAlignment="Left" Height="76" Margin="507,309,0,0" VerticalAlignment="Top" Width="132" FontSize="36"/>
+        <Label x:Name="LBL_INTRODUCTOR" Content="Introductor" HorizontalAlignment="Left" Height="57" Margin="454,367,0,0" VerticalAlignment="Top" Width="185" FontSize="36"/>
+        <TextBox x:Name="TXT_SAGARPA" HorizontalAlignment="Left" Height="50" Margin="644,309,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="256" FontSize="36"/>
+        <TextBox x:Name="TXT_INTRODUCTOR" HorizontalAlignment="Left" Height="50" Margin="644,367,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="256" FontSize="36"/>
+        <dxlc:GroupBox x:Name="GPX_PESO" Header="Peso" HorizontalAlignment="Left" Height="201" Margin="948,240,0,0" VerticalAlignment="Top" Width="614" FontSize="36"/>
+        <TextBox x:Name="TXT_PESO" HorizontalAlignment="Left" Height="115" Margin="965,309,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="579" FontSize="72"/>
+        <Button x:Name="BTN_NUEVO" Content="Nuevo" HorizontalAlignment="Left" Margin="694,726,0,0" VerticalAlignment="Top" Width="286" Height="136" FontSize="36" FontWeight="Bold" Foreground="White" Background="DeepSkyBlue"/>
+        <Button x:Name="BTN_GUARDAR" Content="Guardar" HorizontalAlignment="Left" Margin="985,726,0,0" VerticalAlignment="Top" Width="286" Height="136" FontSize="36" FontWeight="Bold" Foreground="White" Background="LimeGreen"/>
+        <Button x:Name="BTN_PESAR" Content="Pesar" HorizontalAlignment="Left" Margin="1276,726,0,0" VerticalAlignment="Top" Width="286" Height="136" FontSize="36" FontWeight="Bold" Foreground="White" Background="Brown"/>
+        <DataGrid x:Name="DTV_INFO" HorizontalAlignment="Left" Height="232" Margin="30,471,0,0" VerticalAlignment="Top" Width="1532"/>
+        <Label x:Name="LBL_INTRODUCTOR1" Content="Introductor" HorizontalAlignment="Left" Height="50" Margin="1249,79,0,0" VerticalAlignment="Top" Width="183" FontSize="36"/>
+        <Label x:Name="LBL_DESTINO" Content="Destino" HorizontalAlignment="Left" Height="50" Margin="1304,142,0,0" VerticalAlignment="Top" Width="128" FontSize="36"/>
+        <TextBox x:Name="TXT_INTRODUCTOR1" HorizontalAlignment="Left" Height="50" Margin="1437,87,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="29" FontSize="36"/>
+        <TextBox x:Name="TXT_DESTINO" HorizontalAlignment="Left" Height="50" Margin="1437,142,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="29" FontSize="36"/>
+        <TextBox x:Name="TXT_INTRODUCTOR2" HorizontalAlignment="Left" Height="50" Margin="1471,87,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="91" FontSize="36" IsEnabled="False"/>
+        <TextBox x:Name="TXT_DESTINO1" HorizontalAlignment="Left" Height="50" Margin="1471,142,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="91" FontSize="36" IsEnabled="False"/>
+
+    </Grid>
+</Window>

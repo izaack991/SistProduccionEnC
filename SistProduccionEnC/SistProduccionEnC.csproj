@@ -73,11 +73,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Busquedas\frmBusqueda.xaml.cs">
+      <DependentUpon>frmBusqueda.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Procesos\frmKPI_INGESTA.xaml.cs">
       <DependentUpon>frmKPI_INGESTA.xaml</DependentUpon>
     </Compile>
     <Compile Include="Procesos\frmOrdenProduccionPie.xaml.cs">
       <DependentUpon>frmOrdenProduccionPie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_Pieles.xaml.cs">
+      <DependentUpon>frmPROC_Pieles.xaml</DependentUpon>
     </Compile>
     <Compile Include="Procesos\FRM_PROGRAMA_SACRIFICIO.xaml.cs">
       <DependentUpon>FRM_PROGRAMA_SACRIFICIO.xaml</DependentUpon>
@@ -88,6 +94,10 @@
     <Compile Include="Utilerias\frmUtil_Contrasena.xaml.cs">
       <DependentUpon>frmUtil_Contrasena.xaml</DependentUpon>
     </Compile>
+    <Page Include="Busquedas\frmBusqueda.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Catalogos\frmCAT_ClasificacionExp.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -198,6 +208,10 @@
     <Page Include="Procesos\frmOrdenProduccionPie.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Procesos\frmPROC_Pieles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Procesos\FRM_PROGRAMA_SACRIFICIO.xaml">
       <Generator>MSBuild:Compile</Generator>
