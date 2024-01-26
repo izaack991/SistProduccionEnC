@@ -76,14 +76,26 @@
     <Compile Include="Busquedas\frmBusqueda.xaml.cs">
       <DependentUpon>frmBusqueda.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Procesos\frmEntradaVehiculos.xaml.cs">
+      <DependentUpon>frmEntradaVehiculos.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Procesos\frmKPI_INGESTA.xaml.cs">
       <DependentUpon>frmKPI_INGESTA.xaml</DependentUpon>
     </Compile>
     <Compile Include="Procesos\frmOrdenProduccionPie.xaml.cs">
       <DependentUpon>frmOrdenProduccionPie.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Procesos\frmOrdenSacrificio.xaml.cs">
+      <DependentUpon>frmOrdenSacrificio.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Procesos\frmPROC_Pieles.xaml.cs">
       <DependentUpon>frmPROC_Pieles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_SalidaCajas_xID.xaml.cs">
+      <DependentUpon>frmPROC_SalidaCajas_xID.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_TRANS_CAJAS.xaml.cs">
+      <DependentUpon>frmPROC_TRANS_CAJAS.xaml</DependentUpon>
     </Compile>
     <Compile Include="Procesos\FRM_PROGRAMA_SACRIFICIO.xaml.cs">
       <DependentUpon>FRM_PROGRAMA_SACRIFICIO.xaml</DependentUpon>
@@ -201,7 +213,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Procesos\frmEntradaVehiculos.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Procesos\frmKPI_INGESTA.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Procesos\frmListaPrecios.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -209,7 +229,31 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Procesos\frmOrdenSacrificio.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Procesos\frmPROC_EntradaProdTransf.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Procesos\frmPROC_Pieles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Procesos\frmPROC_ProduccionCortes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Procesos\frmPROC_SalidaCajas_xID.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Procesos\frmPROC_Salida_Pieles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Procesos\frmPROC_TRANS_CAJAS.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

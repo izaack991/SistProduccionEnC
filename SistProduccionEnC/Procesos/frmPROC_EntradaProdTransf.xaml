@@ -1,0 +1,46 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SistProduccionEnC.Procesos"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:Custom="http://schemas.devexpress.com/winfx/2008/xaml/charts/rangecontrolclient" x:Class="SistProduccionEnC.Procesos.frmPROC_EntradaProdTransf"
+        mc:Ignorable="d"
+        Title="Entrada de producto por transformación" Height="900" Width="1600" Background="LightGray">
+    <Grid>
+        <Label x:Name="LBL_Movimiento" Content="Movimiento" HorizontalAlignment="Left" Margin="30,73,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_DatosProductos" Content="Datos del Producto" HorizontalAlignment="Left" Margin="1105,19,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_Peso" Content="Peso" HorizontalAlignment="Left" Margin="882,238,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_ResumenProductos" Content="Resumen de productos" HorizontalAlignment="Left" Margin="247,457,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_Obesarvaciones" Content="Observaciones" HorizontalAlignment="Left" Margin="260,696,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_DetalleProductos" Content="Detalle de productos" HorizontalAlignment="Left" Margin="1082,313,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_FolioCorte" Content="Folio del Corte" HorizontalAlignment="Left" Margin="589,19,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <TextBox x:Name="TXT_Observaciones" HorizontalAlignment="Left" Height="101" Margin="30,755,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="650"/>
+        <TextBox x:Name="TXT_IDMov" HorizontalAlignment="Left" Height="54" Margin="242,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <DatePicker x:Name="DTP_FechaMov" HorizontalAlignment="Left" Margin="407,72,0,0" VerticalAlignment="Top" Height="54" Width="150" FontSize="36"/>
+        <TextBox x:Name="TXT_NomMov" HorizontalAlignment="Left" Height="54" Margin="30,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="527"/>
+        <TextBox x:Name="TXT_IDCorte" HorizontalAlignment="Left" Height="54" Margin="630,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="36"/>
+        <Label x:Name="LBL_LoteCorte" Content="Lote de corte" HorizontalAlignment="Left" Margin="30,258,0,0" VerticalAlignment="Top" FontSize="36" RenderTransformOrigin="0.025,0.559"/>
+        <Label x:Name="LBL_Introductor" Content="Introductor" HorizontalAlignment="Left" Margin="60,326,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_Destino" Content="Destino" HorizontalAlignment="Left" Margin="119,394,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_FechaEtiqueta" Content="Fecha de la etiqueta" HorizontalAlignment="Left" Margin="461,206,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_Código" Content="Código" HorizontalAlignment="Left" Margin="854,79,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_Piezas" Content="Piezas" HorizontalAlignment="Left" Margin="872,147,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <TextBox x:Name="TXT_Lote" HorizontalAlignment="Left" Height="54" Margin="279,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="36"/>
+        <TextBox x:Name="TXT_MarcaIntrod" HorizontalAlignment="Left" Height="54" Margin="279,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="36"/>
+        <TextBox x:Name="TXT_MarcaDest" HorizontalAlignment="Left" Height="54" Margin="279,394,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="36"/>
+        <TextBox x:Name="TXT_NomIntrod" HorizontalAlignment="Left" Height="54" Margin="445,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="335" FontSize="36"/>
+        <TextBox x:Name="TXT_NomDest" HorizontalAlignment="Left" Height="54" Margin="445,398,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="335" FontSize="36"/>
+        <DatePicker x:Name="DTP_FechaEtiqueta" HorizontalAlignment="Left" Margin="515,257,0,0" VerticalAlignment="Top" Height="54" Width="150" FontSize="36"/>
+        <DataGrid x:Name="DGV_Resumen" HorizontalAlignment="Left" Height="180" Margin="30,511,0,0" VerticalAlignment="Top" Width="750"/>
+        <TextBox x:Name="TXT_CodProd" HorizontalAlignment="Left" Height="54" Margin="993,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="TXT_NomProd" HorizontalAlignment="Left" Height="54" Margin="1166,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="394"/>
+        <dxe:SpinEdit x:Name="SPE_Piezas" HorizontalAlignment="Left" Margin="993,147,0,0" VerticalAlignment="Top" Width="150" Height="54"/>
+        <TextBox x:Name="TXT_Peso" HorizontalAlignment="Left" Height="54" Margin="985,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"/>
+        <DataGrid x:Name="DGV_Datos" HorizontalAlignment="Left" Height="319" Margin="823,372,0,0" VerticalAlignment="Top" Width="737"/>
+        <Button x:Name="BTN_Agregar" Content="Agregar" HorizontalAlignment="Left" Margin="1274,176,0,0" VerticalAlignment="Top" Width="286" FontSize="36" Height="137" RenderTransformOrigin="0.526,0.053"/>
+        <Button x:Name="BTN_Nuevo" Content="Nuevo" HorizontalAlignment="Left" Margin="707,719,0,0" VerticalAlignment="Top" Width="286" FontSize="36" Height="137" RenderTransformOrigin="0.526,0.053"/>
+        <Button x:Name="BTN_Guardar" Content="Guardar" HorizontalAlignment="Left" Margin="1002,719,0,0" VerticalAlignment="Top" Width="286" FontSize="36" Height="137" RenderTransformOrigin="0.526,0.053"/>
+        <Button x:Name="BTN_Pesar" Content="Pesar" HorizontalAlignment="Left" Margin="1298,719,0,0" VerticalAlignment="Top" Width="286" FontSize="36" Height="137" RenderTransformOrigin="0.526,0.053"/>
+    </Grid>
+</Window>
