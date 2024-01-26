@@ -233,10 +233,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+<<<<<<< HEAD
     <Page Include="Procesos\frmPROC_EntradaProdTransf.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+=======
+>>>>>>> 2abc577d0fbe09fcbd89cd8daac0cc35702eaa24
     <Page Include="Procesos\frmPROC_Pieles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
