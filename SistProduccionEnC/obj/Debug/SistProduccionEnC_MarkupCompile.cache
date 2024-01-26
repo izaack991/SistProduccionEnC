@@ -4,47 +4,26 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-C:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
-=======
-<<<<<<< HEAD
-C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
-=======
-C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
->>>>>>> 2abc577d0fbe09fcbd89cd8daac0cc35702eaa24
->>>>>>> 22824f675ce3c4c9037990a98e4a0068035e66f0
+C:\Users\kevin\source\repos\SistProduccionEnC\SistProduccionEnC\obj\Debug\
 SistProduccionEnC
 none
 false
 DEBUG;TRACE
 <<<<<<< HEAD
-C:\Users\jonathannoriega\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
-27-46821867
-
-302026378593
-311310417350
-Busquedas\frmBusqueda.xaml;Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;Procesos\frmEntradaVehiculos.xaml;Procesos\frmKPI_INGESTA.xaml;Procesos\frmOrdenProduccionPie.xaml;Procesos\frmOrdenSacrificio.xaml;Procesos\frmPROC_GanadoEnPie.xaml;Procesos\frmPROC_Pieles.xaml;Procesos\frmPROC_ReetiquetarCajas.xaml;Procesos\frmPROC_SalidaCanales.xaml;Procesos\frmPROC_Salida_Viceras.xaml;Procesos\FRM_PROGRAMA_SACRIFICIO.xaml;Utilerias\FrmAbrirCerrarCorte.xaml;Utilerias\frmUtil_Contrasena.xaml;
-
-True
-=======
-<<<<<<< HEAD
-C:\Users\kevin\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
+C:\Users\kevin\source\repos\SistProduccionEnC\SistProduccionEnC\App.xaml
 29723754320
 
 301305762758
 311310417350
 Busquedas\frmBusqueda.xaml;Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;Procesos\frmEntradaVehiculos.xaml;Procesos\frmKPI_INGESTA.xaml;Procesos\frmListaPrecios.xaml;Procesos\frmOrdenProduccionPie.xaml;Procesos\frmOrdenSacrificio.xaml;Procesos\frmPROC_EntradaProdTransf.xaml;Procesos\frmPROC_Pieles.xaml;Procesos\frmPROC_ProduccionCortes.xaml;Procesos\frmPROC_SalidaCajas_xID.xaml;Procesos\frmPROC_Salida_Pieles.xaml;Procesos\frmPROC_TRANS_CAJAS.xaml;Procesos\FRM_PROGRAMA_SACRIFICIO.xaml;Utilerias\FrmAbrirCerrarCorte.xaml;Utilerias\frmUtil_Contrasena.xaml;
-
-True
 =======
 C:\Users\luiseduardovelazquez\Source\Repos\SistProduccionEnC\SistProduccionEnC\App.xaml
 23-1647413958
 
-28-1180775205
+27-338415838
 311310417350
 Busquedas\frmBusqueda.xaml;Catalogos\frmCAT_ClasificacionExp.xaml;Catalogos\frmCAT_Clientes.xaml;Catalogos\frmCAT_Especies.xaml;Catalogos\frmCAT_Familias.xaml;Catalogos\frmCAT_IEPS.xaml;Catalogos\frmCAT_INSUMOS.xaml;Catalogos\frmCAT_IVA.xaml;Catalogos\frmCAT_MarcasVehiculos.xaml;Catalogos\frmCAT_Productos.xaml;Catalogos\frmCAT_ProductosCte.xaml;Catalogos\frmCAT_Subfamilias.xaml;Catalogos\frmCAT_TipoGanado.xaml;Catalogos\frmCAT_TiposVehiculo.xaml;MainWindow.xaml;Procesos\frmEntradaVehiculos.xaml;Procesos\frmKPI_INGESTA.xaml;Procesos\frmOrdenProduccionPie.xaml;Procesos\frmOrdenSacrificio.xaml;Procesos\frmPROC_Pieles.xaml;Procesos\FRM_PROGRAMA_SACRIFICIO.xaml;Utilerias\FrmAbrirCerrarCorte.xaml;Utilerias\frmUtil_Contrasena.xaml;
-
-False
 >>>>>>> 2abc577d0fbe09fcbd89cd8daac0cc35702eaa24
->>>>>>> 22824f675ce3c4c9037990a98e4a0068035e66f0
+
+True
 

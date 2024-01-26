@@ -1,0 +1,28 @@
+﻿<Window x:Class="SistProduccionEnC.Procesos.frmListaPrecios"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SistProduccionEnC.Procesos"
+        mc:Ignorable="d"
+        Title="Lista Precios" Height="900" Width="1600" Background="LightGray">
+    <Grid>
+        <Label x:Name="LBL_Fecha" Content="Fecha" HorizontalAlignment="Left" Margin="143,56,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_ID" Content="ID" HorizontalAlignment="Left" Margin="200,125,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_Nombre" Content="Nombre" HorizontalAlignment="Left" Margin="104,196,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_Cliente" Content="Cliente" HorizontalAlignment="Left" Margin="126,268,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_Producto" Content="Producto" HorizontalAlignment="Left" Margin="90,388,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="LBL_Precio" Content="Precio" HorizontalAlignment="Left" Margin="976,388,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <TextBox x:Name="TXT_NombInsumo" HorizontalAlignment="Left" Height="54" Margin="421,388,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="540" FontSize="36"/>
+        <TextBox x:Name="TXT_IDListPrec" HorizontalAlignment="Left" Height="54" Margin="258,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="36"/>
+        <TextBox x:Name="TXT_NomListPrec" HorizontalAlignment="Left" Height="54" Margin="258,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="703" FontSize="36"/>
+        <TextBox x:Name="TXT_IDClieListPrec" HorizontalAlignment="Left" Height="54" Margin="258,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="36"/>
+        <TextBox x:Name="TXT_NomClienList" HorizontalAlignment="Left" Height="54" Margin="421,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="540" FontSize="36"/>
+        <TextBox x:Name="TXT_IDInsumo" HorizontalAlignment="Left" Height="54" Margin="258,388,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="36"/>
+        <DatePicker x:Name="DTP_FechaList" HorizontalAlignment="Left" Margin="258,56,0,0" VerticalAlignment="Top" Width="150" Height="54" FontSize="36" RenderTransformOrigin="0.827,0.63"/>
+        <TextBox x:Name="TXT_Precio" HorizontalAlignment="Left" Height="54" Margin="1085,388,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="36"/>
+        <DataGrid x:Name="DGV_ListPrecio" HorizontalAlignment="Left" Height="391" Margin="48,464,0,0" VerticalAlignment="Top" Width="1500"/>
+        <Button x:Name="BTN_Agregar" Content="Agregar" HorizontalAlignment="Left" Margin="1262,305,0,0" VerticalAlignment="Top" Width="286" FontSize="36" Height="137" RenderTransformOrigin="0.526,0.053"/>
+
+    </Grid>
+</Window>
