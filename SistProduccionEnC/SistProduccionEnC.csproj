@@ -91,19 +91,17 @@
     <Compile Include="Procesos\frmPROC_Pieles.xaml.cs">
       <DependentUpon>frmPROC_Pieles.xaml</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Procesos\frmPROC_SalidaCanales.xaml.cs">
       <DependentUpon>frmPROC_SalidaCanales.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Procesos\frmPROC_Salida_Viceras.xaml.cs">
+    <Compile Include="Procesos\frmPROC_Salida_Viceras.xaml.cs"> 
       <DependentUpon>frmPROC_Salida_Viceras.xaml</DependentUpon>
-=======
+	</Compile>
     <Compile Include="Procesos\frmPROC_SalidaCajas_xID.xaml.cs">
       <DependentUpon>frmPROC_SalidaCajas_xID.xaml</DependentUpon>
     </Compile>
     <Compile Include="Procesos\frmPROC_TRANS_CAJAS.xaml.cs">
       <DependentUpon>frmPROC_TRANS_CAJAS.xaml</DependentUpon>
->>>>>>> 22824f675ce3c4c9037990a98e4a0068035e66f0
     </Compile>
     <Compile Include="Procesos\FRM_PROGRAMA_SACRIFICIO.xaml.cs">
       <DependentUpon>FRM_PROGRAMA_SACRIFICIO.xaml</DependentUpon>
@@ -241,25 +239,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-<<<<<<< HEAD
     <Page Include="Procesos\frmPROC_GanadoEnPie.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-=======
-<<<<<<< HEAD
     <Page Include="Procesos\frmPROC_EntradaProdTransf.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-=======
->>>>>>> 2abc577d0fbe09fcbd89cd8daac0cc35702eaa24
->>>>>>> 22824f675ce3c4c9037990a98e4a0068035e66f0
     <Page Include="Procesos\frmPROC_Pieles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-<<<<<<< HEAD
     <Page Include="Procesos\frmPROC_ReetiquetarCajas.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -269,7 +260,9 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Procesos\frmPROC_Salida_Viceras.xaml">
-=======
+		<SubType>Designer</SubType>
+		<Generator>MSBuild:Compile</Generator>
+	</Page>
     <Page Include="Procesos\frmPROC_ProduccionCortes.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -283,7 +276,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Procesos\frmPROC_TRANS_CAJAS.xaml">
->>>>>>> 22824f675ce3c4c9037990a98e4a0068035e66f0
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
